@@ -1,18 +1,22 @@
 {
   "inbounds": [
     {
-      "port": 443,
+      "port": 80,
       "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "id": "550e8400-e29b-41d4-a716-446655440000"
+            "id": "1B7E8F37-8FF1-4A6D-9534-45F4C01891AF"
           }
         ],
         "decryption": "none"
       },
       "streamSettings": {
         "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true
+        },
         "xhttpSettings": {
           "mode": "packet-up",
           "path": "/"
